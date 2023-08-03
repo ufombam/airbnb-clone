@@ -1,11 +1,12 @@
 import React from 'react';
+import Landing from './components/Landing/Landing';
 import './App.css';
 
-function App() {
+const App = () => {
 
   return (
     <div className="">
-      <h1>Moses Ufomba</h1>
+      <Landing />
     </div>
   );
 }
