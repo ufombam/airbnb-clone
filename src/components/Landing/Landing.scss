@@ -1,5 +1,26 @@
-.Header_logo {
-    border: 1px solid black;
-    height: 80px;
+.landing-body {
+  display: flex;
+  flex-direction: column;
+  .flex-grow {
+    flex-grow: 1
   }
-  
+  .Header_logo {
+    display: flex;
+      border: 1px solid black;
+      height: 80px;
+      width: 100%;
+      .logo {
+        border: 1px solid black
+      }
+    .schedule {
+      border: 1px solid black
+    }
+      .user-lang {
+        border: 1px solid black
+      }
+    }
+    .landing-nav {
+      border: 1px solid black;
+      height: 100px;
+    }
+}
