@@ -1,6 +1,15 @@
+.root {
+  --hover-shadow: cubic-bezier(10,0,0,1);
+}
+
 .landing-body {
   display: flex;
   flex-direction: column;
+}
+.landing-body .flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .landing-body .flex-grow {
   flex-grow: 1;
@@ -18,9 +27,23 @@
   border: 1px solid black;
 }
 .landing-body .Header_logo .user-lang {
+  display: flex;
+  justify-content: space-between;
   border: 1px solid black;
+  width: 20vw;
+  padding: 0px 50px 0px 0px;
 }
-.landing-body .landing-nav {
+.landing-body .Header_logo .user-lang .user-container {
+  border: 1px solid #dddddd;
+  width: 77px;
+  height: 42px;
+  border-radius: 21px;
+  transition: box-shadow 0.2s var(--hover-shadow);
+}
+.landing-body .Header_logo .user-lang .user-container:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+}
+.landing-body .Header_logo .landing-nav {
   border: 1px solid black;
   height: 100px;
 }/*# sourceMappingURL=Landing.css.map */
