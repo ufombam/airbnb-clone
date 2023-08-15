@@ -14,6 +14,9 @@
 .landing-body .flex-grow {
   flex-grow: 1;
 }
+.landing-body .hover-gray:hover {
+  background: #EBEBEB;
+}
 .landing-body .Header_logo {
   display: flex;
   border: 1px solid black;

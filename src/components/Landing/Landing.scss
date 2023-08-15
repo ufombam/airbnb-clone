@@ -13,6 +13,9 @@
     .flex-grow {
       flex-grow: 1;
     }
+    .hover-gray:hover {
+      background: #EBEBEB;
+    }
     .Header_logo {
       display: flex;
         border: 1px solid black;
@@ -32,7 +35,6 @@
           padding: 0px 50px 0px 0px;
           .user-container {
             border: 1px solid #dddddd;
-            //padding: 5px 5px 5px 12px;
             width: 77px;
             height: 42px;
             border-radius: 21px;
@@ -41,7 +43,6 @@
           .user-container:hover {
             //border: 1px solid black;
             box-shadow: 0 2px 4px rgba(0,0,0,0.18);
-            //transition: box-shadow 0.2s var(--hover-shadow);
           }
       }
       .landing-nav {

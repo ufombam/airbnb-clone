@@ -3,7 +3,6 @@ import './Landing.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import LanguageIcon from '@mui/icons-material/Language';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import { pink } from '@mui/material/colors';
 
 
 const Landing = () => {
@@ -18,14 +17,16 @@ const Landing = () => {
         </div>
         <div className='schedule flex-grow'></div>
         <div className='user-lang flex-center'>
-          Airbnb your home
-          <LanguageIcon sx={{ color: '#222222'}} />
+          <div className='hover-gray'>Airbnb your home</div>
+          <div>
+            <LanguageIcon sx={{ color: '#222222'}} />
+          </div>
           <div className='user-container flex-center'>
             <div className="flex-center" style={{width: '30px'}}>
               <MenuIcon sx={{ color: '#222222', fontSize: 20}} />
             </div>
             <div className="flex-center">
-              <AccountCircleIcon sx={{ color: '#222222', fontSize: 35}} />
+              <AccountCircleIcon sx={{ color: '#717171', fontSize: 35}} />
             </div>
             <div></div>
             <div></div>
